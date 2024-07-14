@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.checkout{
+    width: 100%;
+    min-height: 100vh;
+    background: #fce3fe;
+    padding-top: 80px;
+}
+
+.checkout h1{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+.checkout-container{
+    width: 1000px;
+    height: 500px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+
+.checkout-container h2{
+    margin-top: 25px;
+}
+
+.checkout-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.combine{
+    display: flex;
+    justify-content: space-between;
+}
+
+.address{
+    width: 98%;
+}
+
+.combine .firstElement{
+    margin-right: 10px;
+}
+
+.checkout-fields input{
+    height: 55px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+
+.checkout-container button {
+    display: block;
+    margin: auto;
+    padding: auto;
+    width: 200px;
+    height: 60px;
+    color: white;
+    background: red;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}

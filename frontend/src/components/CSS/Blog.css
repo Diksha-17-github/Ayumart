@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.information{
+    max-width: 85%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.information h1{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.information hr{
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.information .para{
+    font-size: 20px;
+}
+
+.comments h1{
+    font-size: 30px;
+}
+
+.comments hr{
+    width: 130px;
+    margin-bottom: 20px;
+}
